@@ -1,4 +1,5 @@
-# alex
+# Coding challenges
+
 Code challenges from www.hackerrank.com
 
 The HackerRank team is on a mission to flatten the world by restructuring the DNA of every company on the planet. We rank programmers based on their coding skills, helping companies source great programmers and reduce the time to hire.

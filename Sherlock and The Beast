@@ -1,0 +1,25 @@
+// Enter your code here 
+var n = Int(readLine()!)!
+for i in 1...n{
+    var num = Int(readLine()!)!
+    var fiveMax:Int = num/5
+    var three:Int = 0
+    var five:Int = 0
+    for d in 0...fiveMax {
+        var ost = num-(d*5)
+        five=d
+        if ost%3==0 && ost>0 {
+            three=ost/3
+            break
+        }
+        if ost>0 {five=0}
+    }
+//print("five=\(five) three=\(three)")
+    if five==0 && three==0 {
+        print(-1, terminator:"")
+    } else {
+        if three>0 {for d in 1...three {print("555", terminator:"")}}
+        if five>0 {for d in 1...five {print("33333", terminator:"")}}
+    }
+   print()
+}
